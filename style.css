@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+  transition: all 0.3s;
+  font-family: varela;
+}
+
+/* LIGHT THEME STYLE */
+:root {
+  --bg-dark: #eee;
+  --text-dark: #444;
+}
+
+/* DARK THEME STYLE */
+.dark-theme {
+  --bg-dark: #444;
+  --text-dark: #eee;
+}
+
+@font-face {
+  font-family: "varela";
+  src: url("./varela-round.ttf");
+}
+
+a {
+  color: inherit;
+}
+.header {
+  text-align: center;
+  padding: 0.6rem 0;
+  background: #24bec4;
+  transition: all 0.3s;
+}
+
+.header .header-title {
+  color: #fff;
+}
+
+/* MAIN CONTENT */
+.content {
+  padding: 1rem;
+}
+.content-title {
+  margin: 1rem 0;
+}
+
+.content-text {
+  margin-top: 1rem;
+}
+
+/* THEME STYLES */
+.theme-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  background: #cccccc;
+  box-shadow: 3px -3px 10px rgba(0, 0, 0, 0.7), -3px 3px 5px #9c9c9cbd;
+}
+
+.theme-button.dark-button {
+  background: rgb(0, 0, 0);
+}
+
+.theme-button:not(.dark-button) .moon-icon {
+  display: none;
+}
+
+.theme-button.dark-button .sun-icon {
+  display: none;
+}
+
+/* FOOTER */
+footer {
+  padding: 1erm;
+  text-align: center;
+}
