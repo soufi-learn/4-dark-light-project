@@ -1,4 +1,4 @@
-# 4-dark-light-project (part 2)
+# 4-dark-light-project 
 ### this is the fourth project of <b>22 javascript project</b>
 <p>برای شرکت در دوره ۲۲ پروژه جاوااسکریپت، به دایرکت اینستاگرام پیام بدین</p>
 <p>فالو هم بکنید :/</p>
